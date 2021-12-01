@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "start": "./src/bin.js | garnish"
+    "start": "node ./src/bin.js | garnish"
   },
   "dependencies": {
     "@2003scape/rsc-bestiary": "^1.0.1",
@@ -13,6 +13,7 @@
     "@2003scape/rsc-world-map": "^1.0.0",
     "body-parser": "^1.19.0",
     "bole": "^4.0.0",
+    "browserslist": "^4.18.1",
     "chunk": "0.0.3",
     "cookie-session": "^1.4.0",
     "csurf": "^1.11.0",
