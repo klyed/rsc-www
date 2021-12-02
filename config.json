@@ -1,7 +1,8 @@
 {
-    "dataServerTCP": "localhost:8123",
+    "dataServerTCP": "http://45.56.68.65",
     "dataServerPassword": "test",
-    "port": 6969,
-    "development": true,
-    "baseURL": "http://localhost:6969/"
+    "port": 43594,
+    "development": false,
+    "production": true,
+    "baseURL": "https://rsc2003.com"
 }

@@ -16,7 +16,7 @@ const log = bole('bin');
 
 function formatIPAddress(ip) {
     if (ip === '::1') {
-        return '127.0.0.1';
+        return '45.56.68.65';
     }
 
     ip = ip.split(':');

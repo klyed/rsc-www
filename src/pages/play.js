@@ -8,7 +8,7 @@ function GameSelectButton(props) {
 
     return (
         <div className={`rsc-game-select rsc-select-${type}`}>
-            <Link href="//farts.com">
+            <Link href="https://rs2003.com/play">
                 <a className="rsc-select-button">
                     <small>Click here for</small>
 
