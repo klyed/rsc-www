@@ -14,10 +14,10 @@ function App({ Component, pageProps, props }) {
 }
 
 App.getInitialProps = async function ({ ctx: { req } }) {
-    const response = await fetch(`https://rsc2003.com/api/session`, {
+    const response = await fetch(`${process.env.url}/api/session`, {
         headers: { cookie: req ? req.cookie : undefined }
     });
-
+    console.log(response)
     if (response.ok == true) {
         const session = await response.json();
         return { props: { session } };

@@ -92,14 +92,14 @@ export default function Container(props) {
                     Login
                 </a>
             </Link>
-            <Link href="/register">
+            /*<Link href="/register">
                 <a
                     className="rsc-register-link rsc-small-block rsc-small-spaced"
                     title="Create a RuneScape account."
                 >
                     Connect Wallet
                 </a>
-            </Link>
+            </Link>*/
         </>
     );
 
